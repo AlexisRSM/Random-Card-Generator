@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 300px; 
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+    font-size: 60px;
+}
+
+.row-top {
+    align-self: flex-start;
+    /* background-color: #fff; */
+}
+
+.row-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    flex-grow: 1;
+    width: 100%;
+    font-size: 130px;
+}
+
+.row-bottom {
+    align-self: flex-end;
+    /* background-color: blue; */
+}
