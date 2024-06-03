@@ -4,7 +4,7 @@ function randomizer(){
     
     let numbers = ["2","3","4","5","6","7","8","9","10","J","Q","K","A"];
     let number_chooser = numbers[Math.floor(Math.random()*numbers.length)];
-
+    
     return {
         choose_suit,
         number_chooser
@@ -22,5 +22,5 @@ let card = randomizer();
     document.querySelector(".row-middle").style.color = card.choose_suit.color;
     //Bottom Suit
     document.querySelector(".row-bottom").innerText = card.choose_suit.symbol;
-    document.querySelector("row-bottom").style.color = card.choose_suit.color;
+    document.querySelector(".row-bottom").style.color = card.choose_suit.color;
 },600)
